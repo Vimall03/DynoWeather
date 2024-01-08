@@ -15,7 +15,7 @@ import c804 from "./assets/804.png"
 import atmosphere from "./assets/7xx.png"
 // import snow from "./assets/snow.png"
 import * as api from "./services/api"; // Import the API functions
-import AutoAi from "./components/AutoAi";
+// import AutoAi from "./components/AutoAi";
 import {
   BrowserRouter as Router,
   Routes,
@@ -194,9 +194,8 @@ function App() {
           temp={weather.temperature} description={weather.description} minMax={weather.minMax} feelsLike={weather.feelsLike} 
           pressure={weather.pressure} humidity={weather.humidity}  main={weather.main} />} />
           {/* <Route exact path="/" element={} /> */}
-          <Route exact path="/autoweather" element={<AutoAi />} />
           {/* <Weather theme={theme} minMax={weather.minMax} feelsLike={weather.feelsLike} pressure={weather.pressure} humidity={weather.humidity} description={weather.description} main={weather.main} /> */}
-          <Route exact path="/autoweather" element={<Accordian />} />
+        
         </Routes>
       </Router>
       
