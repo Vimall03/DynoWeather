@@ -1,6 +1,7 @@
 // api.js
 const baseUrl = "https://api.openweathermap.org/data/2.5/weather";
-const apiKey = process.env.REACT_APP_API_KEY;
+// const apiKey = process.env.REACT_APP_API_KEY;
+const apiKey = '0164e9b8665ed40efa1882a07cfd3b7c';
 
 export const handleData = (parsedData, coordinates) => {
     return {
